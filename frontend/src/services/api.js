@@ -1,5 +1,5 @@
 const API_BASE = '/api'
-const APP_NAME = 'roadmap_learning_architect'
+const APP_NAME = 'roadmap'
 
 export function generateUserId() {
   const stored = localStorage.getItem('ck_user_id')
