@@ -34,6 +34,6 @@ export async function runAgent(userId, sessionId, message) {
       streaming: false,
     }),
   })
-  if (!res.ok) throw new Error('Failed to run agent')
+  if (!res.ok) throw new Error('Failed to run agent : ', res)
   return res.json()
 }

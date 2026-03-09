@@ -1,12 +1,12 @@
 sources:
-  restaurant-db:
-    kind: cloud-sql-postgres
-    project: ${GOOGLE_CLOUD_PROJECT}
-    region: ${REGION}
-    instance: restaurant-db
-    database: restaurant_db
-    user: postgres
-    password: ${DB_PASSWORD}
+  # restaurant-db:
+  #   kind: cloud-sql-postgres
+  #   project: ${GOOGLE_CLOUD_PROJECT}
+  #   region: ${REGION}
+  #   instance: restaurant-db
+  #   database: restaurant_db
+  #   user: postgres
+  #   password: ${DB_PASSWORD}
 
 # tools:
   # search_menu:

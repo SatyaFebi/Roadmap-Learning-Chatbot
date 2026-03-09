@@ -1,4 +1,4 @@
-"""FastAPI server wrapping the ADK restaurant concierge agent.
+"""FastAPI server wrapping the ADK roadmap architect agent.
 
 Production-ready with:
 - CORS for frontend integration

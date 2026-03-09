@@ -64,7 +64,7 @@ Guidelines:
 
 root_agent = LlmAgent(
     model=os.environ.get("ADK_MODEL", "gemini-2.5-flash"),
-    name="restaurant_concierge",
+    name="roadmap",
     instruction=SYSTEM_INSTRUCTION,
     tools=[
         *toolbox_tools,

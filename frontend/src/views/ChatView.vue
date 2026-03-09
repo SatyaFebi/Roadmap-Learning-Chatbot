@@ -40,7 +40,7 @@ function handleKeydown(e) {
       <div class="sidebar-brand">
         <div class="brand-icon">🍳</div>
         <div>
-          <h1 class="brand-title">Cloud Kitchen</h1>
+          <h1 class="brand-title">Roadmap Architect AI</h1>
           <p class="brand-sub">AI Concierge</p>
         </div>
       </div>
@@ -65,7 +65,7 @@ function handleKeydown(e) {
       <!-- Header -->
       <header class="chat-header">
         <div class="header-info">
-          <h2>Restaurant Concierge</h2>
+          <h2>Roadmap Architect AI</h2>
           <span class="header-badge">AI-Powered</span>
         </div>
         <button class="icon-btn" title="Chat baru" @click="clearChat">
@@ -81,8 +81,8 @@ function handleKeydown(e) {
         <!-- Empty state -->
         <div v-if="messages.length === 0" class="empty-state">
           <div class="empty-icon">🤖</div>
-          <h3>Selamat Datang di The Cloud Kitchen!</h3>
-          <p>Saya concierge AI Anda. Tanya saya tentang menu, rekomendasi makanan, atau preferensi diet Anda.</p>
+          <h3>Welcome!</h3>
+          <p>Saya asisten roadmap AI Anda. Tanya saya tentang kebutuhan dan keinginan belajar Anda.</p>
           <QuickSuggestions @select="handleSuggestion" />
         </div>
 

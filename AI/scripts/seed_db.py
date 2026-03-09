@@ -183,15 +183,15 @@ def seed_menu(cursor):
 
 
 def main():
-    conn = get_connection()
-    cursor = conn.cursor()
+   #  conn = get_connection()
+   #  cursor = conn.cursor()
 
-    create_schema(cursor)
-    seed_menu(cursor)
+   #  create_schema(cursor)
+   #  seed_menu(cursor)
 
-    conn.commit()
-    cursor.close()
-    conn.close()
+   #  conn.commit()
+   #  cursor.close()
+   #  conn.close()
     print("Done.")
 
 
