@@ -1,5 +1,5 @@
 const API_BASE = '/api'
-const APP_NAME = 'restaurant_concierge'
+const APP_NAME = 'roadmap_learning_architect'
 
 export function generateUserId() {
   const stored = localStorage.getItem('ck_user_id')

@@ -34,7 +34,7 @@
 ```text
 .
 ├── AI/                         # Backend AI Folder
-│   ├── restaurant_concierge/   # Core ADK Agent logic (Roadmap engine)
+│   ├── roadmap/                # Core ADK Agent logic (Roadmap engine)
 │   ├── scripts/                # Utility scripts (setup, database)
 │   ├── .env                    # Environment Config (API Keys, Project ID)
 │   ├── server.py               # Backend API Entry Point
